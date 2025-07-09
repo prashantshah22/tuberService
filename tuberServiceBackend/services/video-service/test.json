@@ -1,0 +1,48 @@
+{
+  "timestamp": 1752072933976,
+  "accountId": "394691794447",
+  "queue": "arn:aws:mediaconvert:ap-south-1:394691794447:queues/Default",
+  "jobId": "1752072918712-f4p3dz",
+  "status": "COMPLETE",
+  "userMetadata": {},
+  "outputGroupDetails": [
+    {
+      "outputDetails": [
+        {
+          "outputFilePaths": [
+            "s3://tuber-video-darkdevil/stream/df8c1048-0b50-4e27-90c2-f88dfa56d071/df8c1048-0b50-4e27-90c2-f88dfa56d071_480p.m3u8"
+          ],
+          "durationInMs": 55121,
+          "videoDetails": {
+            "widthInPx": 640,
+            "heightInPx": 480,
+            "averageBitrate": 606506
+          }
+        },
+        {
+          "outputFilePaths": [
+            "s3://tuber-video-darkdevil/stream/df8c1048-0b50-4e27-90c2-f88dfa56d071/df8c1048-0b50-4e27-90c2-f88dfa56d071_360p.m3u8"
+          ],
+          "durationInMs": 55121,
+          "videoDetails": {
+            "widthInPx": 640,
+            "heightInPx": 360,
+            "averageBitrate": 607466
+          }
+        }
+      ],
+      "playlistFilePaths": [
+        "s3://tuber-video-darkdevil/stream/df8c1048-0b50-4e27-90c2-f88dfa56d071/df8c1048-0b50-4e27-90c2-f88dfa56d071.m3u8"
+      ],
+      "type": "HLS_GROUP"
+    }
+  ],
+  "paddingInserted": 0,
+  "blackVideoDetected": 0,
+  "warnings": [
+    {
+      "code": 240000,
+      "count": 1
+    }
+  ]
+}

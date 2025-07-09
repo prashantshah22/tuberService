@@ -1,0 +1,23 @@
+{
+  "name": "tuber-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-service": "ts-node pipeline/src/index.ts",
+    "start": "concurrently \"npm start --prefix gateway\" \"npm start --prefix services/video-service\" \"npm start --prefix services/like-service\" \"npm start --prefix services/auth-service\" \"npm start --prefix services/comment-service\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "concurrently": "^9.1.2"
+  }
+}
