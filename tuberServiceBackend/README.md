@@ -14,7 +14,6 @@ The system follows a Microservices Architecture pattern, orchestrated via an API
 - **Comment Service**: Handles user comments on videos.
 
 ### Infrastructure & Messaging
-- **Kafka**: Asynchronous event streaming between services.
 - **Redis**: Caching and background job queues (BullMQ).
 - **MongoDB**: Primary database for storing application data.
 - **AWS S3**: Object storage for video files and assets.
