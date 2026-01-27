@@ -25,7 +25,7 @@ A modern, responsive video streaming interface built with Next.js 15, TypeScript
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/tuber-service-frontend.git
+git clone https://github.com/prashantshah22/tuber-service-frontend.git
 cd tuber-service-frontend
 ```
 
