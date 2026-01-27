@@ -41,7 +41,7 @@ Ensure you have the following installed locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/tuber-service-backend.git
+git clone https://github.com/prashantshah22/tuber-service-backend.git
 cd tuber-service-backend
 ```
 
