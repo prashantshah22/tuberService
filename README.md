@@ -45,7 +45,7 @@ For a deep dive into specific aspects of the system, please refer to the documen
     ```bash
     # Backend
     cd tuber-service-backend
-    npm install
+    find . -name "package.json" -not -path "*/node_modules/*" -execdir npm install \;
     
     # Frontend
     cd ../tuber-service-frontend
